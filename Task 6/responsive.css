@@ -1,0 +1,47 @@
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo, .username, .nav-links {
+        font-size: 14px; /* Adjust text size for tablet */
+    }
+    .hero-left h1 {
+        font-size: 3vw; /* Reduce text size */
+    }
+    .hero-left p {
+        font-size: 1.2vw; /* Reduce text size */
+    }
+    .hero-right img {
+        width: 70%; /* Reduce image size */
+    }
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+    .nav-links {
+        display: none; /* Hide links */
+    }
+    .navbar {
+        display: flex; /* Use flex for layout */
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px; /* Adjust padding */
+    }
+    .hero {
+        display: flex;
+        flex-direction: column; /* Change to column layout */
+        align-items: center;
+        padding: 20px;
+    }
+    .hero-left, .hero-right {
+        width: 100%; /* Full width for mobile */
+        text-align: center; /* Center text */
+    }
+    .hero-left h1 {
+        font-size: 5vw; /* Further reduce text size */
+    }
+    .hero-left p {
+        font-size: 3vw; /* Further reduce text size */
+    }
+    .hero-right img {
+        width: 90%; /* Further reduce image size */
+    }
+}

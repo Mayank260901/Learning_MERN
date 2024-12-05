@@ -1,0 +1,129 @@
+
+ /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 50px;
+    /* border-bottom: 1px solid #e0e0e0; */
+    line-height: 50px;
+  }
+  
+  .logo {
+    float: left;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 50px;
+  }
+  
+  .nav-links {
+    display: inline;
+    list-style: none;
+    position: relative;
+    top: 50%;
+    margin: 0 25vw;
+   
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin: 0 10px;
+    
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .username {
+    float: right;
+    background-color: #e0f7fa;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 1rem;
+    color: #007bb6;
+    color: #007bb6;
+    line-height: 50px;
+  }
+  
+  /* Clear float for navbar */
+  .navbar::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Hero Section styling */
+  .hero {
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .hero-left,
+  .hero-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+  }
+  
+  .hero-left {
+    text-align: left;
+    margin-left: 5%;
+  }
+  
+  .hero-left h1 {
+    font-size: 3.5vw;
+    color: #333;
+    line-height: 1.2;
+  }
+  
+  .hero-left h1 span {
+    color: #00aaff;
+  }
+  
+  .hero-left p {
+    font-size: 1.5vw;
+    color: #666;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+  
+  .hero-left button {
+    margin: 50px 0px;
+    padding: 20px 40px;
+    font-size: 1vw;
+    color: #fff;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-left button:hover {
+    background-color: #008fcc;
+  }
+  
+  .hero-right img {
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  /* Ensure no scroll */
+  body, html {
+    overflow: hidden;
+  }
+  
